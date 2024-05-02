@@ -1,3 +1,51 @@
-table, td{
-    border: 2px solid rgb(144 140 140);
+div.profile-card {
+    display: flex;
+    align-items: center;
+    margin-left: 60vh;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+
+    img {
+        border-radius: 50%;
+    }
+    div {
+        margin-left: 24px;
+        h1 {
+            font-size: 24px;
+        }
+        h2 {
+            font-size: 16px;
+            font-weight: normal;
+        }
+    }    
 }
+
+hr {
+    border: 1px dotted black;
+}
+
+div.profile-table {
+    margin-top: 5vh;
+    align-items: center;
+    margin-left: 60vh;
+
+    h1 {
+        font-size: 18px;
+    }
+
+    table {
+        padding: 24px;
+        padding-inline: 36px;
+        border: 2px solid rgb(144 140 140);
+    }
+    td{
+        border: 2px solid rgb(144 140 140);
+        width: 200px;
+        text-align: center;
+    }
+}
+
+/* @media only screen and (max-width: 600px) {
+    margin-left: 0;
+    width: 100vh;
+} */
